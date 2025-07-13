@@ -68,5 +68,5 @@ Navona is a **full-stack web application** that generates detailed, customized s
 ### ⚙️ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/navona.git
+git clone https://github.com/yogesh5055/navona.git
 cd navona

@@ -33,7 +33,24 @@ Navona is a **full-stack web application** that generates detailed, customized s
 
 ## 📸 Screenshots
 
-_Add screenshots here to showcase your UI and features._
+### 🔹 Home Page
+![Home](./screenshots/Home.png)
+
+### 🔹 Login Page
+![Login](./screenshots/Login.png)
+
+### 🔹 User Dashboard
+![User](./screenshots/User.png) 
+
+### 🔹 Choice Page
+![Choice](./screenshots/Choice.png)
+
+### 🔹 Generated Roadmap
+![Roadmap](./screenshots/Roadmap.png)
+
+### 🔹 Download PDF
+![Download](./screenshots/Download.png)
+
 
 ---
 

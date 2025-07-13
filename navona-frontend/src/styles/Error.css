@@ -1,0 +1,45 @@
+.error-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b1120;
+  font-family: 'Poppins', sans-serif;
+}
+
+.glitch {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #4DB8FF;
+  position: relative;
+  animation: glitch 1s infinite alternate;
+}
+
+p {
+  color: #a0aec0;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color:  #6495ed;
+  padding: 12px 30px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #1e90ff;
+  transform: scale(1.05);
+}
+
+@keyframes glitch {
+  0% { text-shadow: 2px 2px 0 #00ffff, -2px -2px 0 #ff00ff; }
+  25% { text-shadow: -2px -2px 0 #00ffff, 2px 2px 0 #ff00ff; }
+  50% { text-shadow: 2px -2px 0 #00ffff, -2px 2px 0 #ff00ff; }
+  75% { text-shadow: -2px 2px 0 #00ffff, 2px -2px 0 #ff00ff; }
+  100% { text-shadow: 2px 2px 0 #00ffff, -2px -2px 0 #ff00ff; }
+}

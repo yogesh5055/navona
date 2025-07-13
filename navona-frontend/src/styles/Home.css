@@ -1,0 +1,121 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply Background Effect to the Entire Page */
+body, html {
+  height: 100%;
+  background: linear-gradient(-45deg, #141E30, #243B55, #1B2735, #415A77);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Background Gradient Animation */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Ensure Root Container Takes Full Height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center Content */
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Hero Section Heading */
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Highlighted Text */
+.hero-section .highlight {
+  color: #4DB8FF;
+  font-weight: bold;
+}
+
+/* Hero Section Paragraph */
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+/* Button Styling */
+.cta-button {
+  background: #007bff;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Button Hover Effect */
+.cta-button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 15px rgba(0, 123, 255, 0.4);
+}
+
+
+/* Navbar Styling */
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 15px;
+}
+
+/* Auth Buttons (Sign In & Login) */
+.auth-button {
+  background: transparent;
+  border: 2px solid #4DB8FF;
+  color: #4DB8FF;
+  padding: 8px 16px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.auth-button:hover {
+  background: #4DB8FF;
+  color: #141E30;
+  transform: scale(1.1);
+}
+
+
+
+

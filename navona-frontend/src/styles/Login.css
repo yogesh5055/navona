@@ -1,0 +1,76 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #141E30, #243B55);
+  font-family: "Poppins", sans-serif;
+}
+
+.login-page form {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.08); /* Glass Effect */
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+  text-align: center;
+}
+
+.login-page h1 {
+  font-size: 30px;
+  color: #4DB8FF;
+  margin-bottom: 20px;
+}
+
+.login-page input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 1px solid #4DB8FF;
+  color: white;
+  outline: none;
+  border-radius: 8px;
+}
+
+.login-page input::placeholder {
+  color: #ccc;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.signup-link {
+  margin-top: 15px;
+  color: #ccc;
+}
+
+.signup-link span {
+  color: #4DB8FF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signup-link span:hover {
+  text-decoration: underline;
+}

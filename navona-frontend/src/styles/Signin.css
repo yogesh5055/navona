@@ -1,0 +1,106 @@
+.signup-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #141E30, #243B55);
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-page form {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.08); /* Glass Effect */
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+  text-align: center;
+}
+
+.signup-page h1 {
+  font-size: 30px;
+  color: #4DB8FF;
+  margin-bottom: 20px;
+}
+
+.signup-page input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 1px solid #4DB8FF;
+  color: white;
+  outline: none;
+  border-radius: 8px;
+}
+
+.signup-page input::placeholder {
+  color: #ccc;
+}
+
+.signup-btn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.signin-link {
+  margin-top: 15px;
+  color: #ccc;
+}
+
+.signin-link span {
+  color: #4DB8FF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signin-link span:hover {
+  text-decoration: underline;
+}
+
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Perfect vertical alignment */
+  gap: 10px; /* Space between checkbox and text */
+  margin-bottom: 15px; /* Space for better layout */
+}
+
+.terms input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.terms span {
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+.terms a {
+  color: #4DB8FF;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+

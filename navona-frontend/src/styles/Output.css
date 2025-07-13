@@ -1,0 +1,186 @@
+.roadmap-output {
+  min-height: 100vh;
+  background-color: #0b1120;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 40px;
+}
+
+.roadmap-output h1 {
+  font-size: 2.2rem;
+  color: #4DB8FF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ✅ Main Output Container */
+.output-container {
+  background-color: #1e293b;
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Increased space between sections */
+  transition: 0.3s ease-in-out;
+}
+
+.output-container:hover {
+  transform: scale(1.01);
+}
+
+/* ✅ Details Section */
+.details p {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #a0aec0;
+}
+
+.details span {
+  color: white;
+  font-weight: bold;
+}
+
+/* ✅ Study Plan Section */
+.study-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Space between weeks */
+}
+
+.study-plan h3 {
+  font-size: 1.5rem;
+  color: #4DB8FF;
+  margin-bottom: 10px;
+}
+
+/* ✅ Week Header (Spacing between "Week 1", "Week 2") */
+.week-section {
+  padding: 20px;
+  background-color: #2a3b5a;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.week-section h4 {
+  font-size: 1.4rem;
+  color: #FFD700; /* Gold color for visibility */
+  margin-bottom: 10px; /* Added space below the heading */
+}
+
+.week-section p {
+  font-size: 1.1rem;
+  color: #a0aec0;
+  margin-bottom: 8px;
+}
+
+/* ✅ Resources Section (Column-wise Alignment) */
+.resource-list {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  gap: 12px; /* Spacing between each resource */
+}
+
+.resource-item {
+  width: 100%;
+}
+
+.resource-item a {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  background-color: #24344d;
+  border-radius: 6px;
+  text-align: left;
+  color: #4DB8FF;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.resource-item a:hover {
+  background-color: #1e90ff;
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+/* ✅ Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-btn, 
+.back-btn {
+  background-color:#6495ed;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.download-btn:hover, 
+.back-btn:hover {
+  background-color: #1e90ff;
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(77, 184, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+  .roadmap-output {
+    padding-top: 20px;
+  }
+
+  .roadmap-output h1 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    padding: 0 15px;
+  }
+
+  .output-container {
+    width: 90%;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .details p,
+  .week-section p,
+  .resource-item a {
+    font-size: 1rem;
+  }
+
+  .study-plan h3 {
+    font-size: 1.3rem;
+  }
+
+  .week-section {
+    padding: 15px;
+  }
+
+  .week-section h4 {
+    font-size: 1.2rem;
+  }
+
+  .resource-item a {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .download-btn,
+  .back-btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+
+

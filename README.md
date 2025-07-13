@@ -19,7 +19,7 @@ Navona is a full-stack web application that generates detailed, customized study
 
 | Frontend  | Backend   | Database        | AI Integration     | PDF Generator |
 |-----------|-----------|------------------|---------------------|---------------|
-| React.js  | FastAPI   | MongoDB Atlas    | OpenAI / Hugging Face | ReportLab (Python) |
+| React.js  | FastAPI   | MongoDB Atlas    | Groq | ReportLab (Python) |
 
 ---
 

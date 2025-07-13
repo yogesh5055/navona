@@ -1,40 +1,48 @@
-# 🚀 Navona - Your Personalized AI-Powered Roadmap Generator
+# 🚀 Navona – Personalized AI-Powered Roadmap Generator
 
-Navona is a full-stack web application that generates detailed, customized study and career roadmaps using artificial intelligence. It's built for students, learners, and professionals to achieve their goals with personalized weekly plans, curated resources, and downloadable PDFs.
+Navona is a **full-stack web application** that generates detailed, customized study and career roadmaps using artificial intelligence. It helps **students, learners, and professionals** achieve their goals with personalized weekly plans, curated resources, and downloadable PDFs.
 
 ---
 
 ## 🌟 Features
 
-- 🧠 **AI-Powered Roadmaps** – Get study plans tailored to your skill level, time commitment, deadline, and preferences.
-- 🛠️ **Tech Stack** – Built with React.js, Tailwind CSS, FastAPI, MongoDB Atlas.
-- 📦 **Structured Weekly Breakdown** – Get detailed weekly tasks with topics, resources, and guidance.
-- 📄 **PDF Generator** – Download your roadmap as a professionally formatted PDF.
-- 🔒 **Authentication** – Secure login and signup system.
-- 🔁 **Error Handling & Redirection** – Smooth navigation with loading screens, network failure detection, and user-friendly error messages.
+- 🧠 **AI-Powered Roadmaps**  
+  Generates study plans tailored to user goals, skill level, time commitment, and deadline.
+
+- 📦 **Structured Weekly Breakdown**  
+  Detailed weekly tasks with topics, resources, and guidance.
+
+- 📄 **PDF Generator**  
+  Download your roadmap as a professionally formatted PDF.
+
+- 🔒 **Authentication**  
+  Secure login and signup system for user data protection.
+
+- 🔁 **Error Handling & Smooth Navigation**  
+  Loading screens, network failure detection, and user-friendly error messages.
 
 ---
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
-| Frontend  | Backend   | Database        | AI Integration     | PDF Generator |
-|-----------|-----------|------------------|---------------------|---------------|
-| React.js  | FastAPI   | MongoDB Atlas    | Groq | ReportLab (Python) |
+| Frontend | Backend | Database | AI Integration | PDF Generator |
+| --- | --- | --- | --- | --- |
+| React.js | FastAPI | MongoDB Atlas | Groq | ReportLab (Python) |
 
 ---
 
 ## 📸 Screenshots
 
-> _Add screenshots here if available. This boosts credibility!_
+_Add screenshots here to showcase your UI and features._
 
 ---
 
 ## 🚦 How It Works
 
-1. **User signs up / logs in**
-2. **Inputs their goal, skill level, daily time, and deadline**
-3. **AI model generates a weekly roadmap**
-4. **User can view, download (PDF), or go back to modify preferences**
+1. User signs up or logs in  
+2. Inputs goal, skill level, daily study time, and deadline  
+3. AI model generates a weekly roadmap  
+4. User can view, download as PDF, or modify preferences
 
 ---
 
